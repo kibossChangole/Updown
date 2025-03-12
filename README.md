@@ -1,6 +1,3 @@
-Here's your properly formatted README.md content:
-
-```md
 # Synthetic Indices Telegram Analysis Bot
 
 A TypeScript-powered Telegram bot that analyzes Synthetic Indices on Deriv, scanning all Volatility Indices in real-time. It detects uptrends, downtrends, and ranging markets on the 5-minute timeframe and sends trade alerts via Telegram.
