@@ -12,7 +12,7 @@ A TypeScript-powered Telegram bot that analyzes Synthetic Indices on Deriv, scan
 
 1. Clone the repository:
    ```sh
-   https://github.com/kibossChangole/Updown.git
+   git clone https://github.com/kibossChangole/Updown.git
    cd synthetic-indices-bot
    ```
 
