@@ -1,43 +1,44 @@
-Synthetic Indices Telegram Analysis Bot
+Here's your properly formatted README.md content:
+
+```md
+# Synthetic Indices Telegram Analysis Bot
 
 A TypeScript-powered Telegram bot that analyzes Synthetic Indices on Deriv, scanning all Volatility Indices in real-time. It detects uptrends, downtrends, and ranging markets on the 5-minute timeframe and sends trade alerts via Telegram.
 
-Features
+## Features
+- Scans all Volatility Indices on Deriv
+- Identifies uptrends, downtrends, and ranging markets
+- Sends real-time trade alerts to Telegram
+- Built with TypeScript for reliability and performance
 
-Scans all Volatility Indices on Deriv
+## Installation
 
-Identifies uptrends, downtrends, and ranging markets
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/synthetic-indices-bot.git
+   cd synthetic-indices-bot
+   ```
 
-Sends real-time trade alerts to Telegram
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-Built with TypeScript for reliability and performance
+3. Set up environment variables in a `.env` file:
+   ```env
+   TELEGRAM_BOT_TOKEN=your_bot_token
+   DERIV_API_KEY=your_deriv_api_key
+   ```
 
-Installation
+4. Run the bot:
+   ```sh
+   npm start
+   ```
 
-Clone the repository:
+## Usage
+- Add the bot to your Telegram group or chat.
+- It will automatically analyze Synthetic Indices and send trade alerts.
 
-git clone https://github.com/yourusername/synthetic-indices-bot.git
-cd synthetic-indices-bot
-
-Install dependencies:
-
-npm install
-
-Set up environment variables in a .env file:
-
-TELEGRAM_BOT_TOKEN=your_bot_token
-DERIV_API_KEY=your_deriv_api_key
-
-Run the bot:
-
-npm start
-
-Usage
-
-Add the bot to your Telegram group or chat.
-
-It will automatically analyze Synthetic Indices and send trade alerts.
-
-Contributing
-
+## Contributing
 Feel free to submit issues or pull requests to improve the bot.
+
